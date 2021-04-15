@@ -12,12 +12,12 @@ export const getAllUsers = async (req, res) => {
 export const getSingleUser = async (req, res) => {
   try {
     const { id } = req.params;
-    const user = await User.findById(id);
-    if (!user)
+    const foundUser = await User.findById(id);
+    if (!foundUser)
       return res
         .status(404)
         .json({ message: `User with id of ${id} not found` });
-    res.json(user);
+    res.json(foundUser);
   } catch (error) {
     res.status(500).json({ error: error.message });
   }
