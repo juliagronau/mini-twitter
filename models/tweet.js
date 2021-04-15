@@ -3,9 +3,8 @@ const { Schema, model } = mongoose;
 
 const tweetSchema = Schema({
   author: { type: Schema.Types.ObjectId, ref: "user" },
-  tweet: String,
-  date: Date,
-  default: Date.now,
+  tweet: { type: String },
+  date: { type: Date, default: Date.now },
 });
-
-export default model("tweet", tweetSchema);
+1;
+export default model("Tweet", tweetSchema);

@@ -1,14 +1,14 @@
 import express from "express";
 import {
-  getAllTweet,
+  getAllTweets,
   getSingleTweet,
   createNewTweet,
 } from "../controllers/tweet.js";
 
 const tweets = express.Router();
 
-posts.get("/", getAllTweet);
-posts.get("/:id", getSingleTweet);
-posts.post("/", createNewTweet);
+tweets.get("/", getAllTweets);
+tweets.get("/:id", getSingleTweet);
+tweets.post("/", createNewTweet);
 
 export default tweets;

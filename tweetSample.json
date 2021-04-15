@@ -1,0 +1,26 @@
+[
+  {
+    "_id": "607843cbf22715cbec04be4e",
+    "date": "2012-10-15T21:26:17.000Z",
+    "tweet": "something",
+    "author": "6078372647016cd1c33eb8b3"
+  },
+  {
+    "_id": "607843cbf22715cbec04b123",
+    "date": "2012-10-15T21:26:17.000Z",
+    "tweet": "I am having an awesome day",
+    "author": "6078372647016cd1c33eb8b3"
+  },
+  {
+    "_id": "607843cbf22715cbec04b456",
+    "date": "2012-10-15T21:26:17.000Z",
+    "tweet": "I love people",
+    "author": "6078372647016cd1c33eb8b3"
+  },
+  {
+    "_id": "607843cbf22715cbec04b789",
+    "date": "2012-10-15T21:26:17.000Z",
+    "tweet": "My cat is cute",
+    "author": "6078496988c9c24928c19123"
+  }
+]

@@ -1,0 +1,23 @@
+[
+  {
+    "_id": "6078372647016cd1c33eb8b3",
+    "bio": "minitwitter is awesome!",
+    "email": "bob@gmail.com",
+    "name": "bob",
+    "password": "123456"
+  },
+  {
+    "_id": "6078496988c9c24928c1959d",
+    "name": "joe",
+    "email": "joe@gmail.com",
+    "password": "123456",
+    "bio": "I'm great"
+  },
+  {
+    "_id": "6078496988c9c24928c19123",
+    "name": "hannah",
+    "email": "hannah@gmail.com",
+    "password": "123456",
+    "bio": "love the community! follow me for daily tweets!"
+  }
+]

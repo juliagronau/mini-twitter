@@ -8,4 +8,4 @@ const userSchema = Schema({
   bio: String,
 });
 
-export default model("tweet", messageSchema);
+export default model("User", userSchema);

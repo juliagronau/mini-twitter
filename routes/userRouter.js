@@ -3,12 +3,12 @@ import {
   getAllUsers,
   getSingleUser,
   createNewUser,
-} from "../controllers/users.js";
+} from "../controllers/user.js";
 
 const users = express.Router();
 
-posts.get("/", getAllUsers);
-posts.get("/:id", getSingleUser);
-posts.post("/", createNewUser);
+users.get("/", getAllUsers);
+users.get("/:id", getSingleUser);
+users.post("/", createNewUser);
 
 export default users;
