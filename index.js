@@ -21,7 +21,7 @@ app.use("/tweets", tweetRouter);
 
 app.get("/", (req, res) => {
   res.send(
-    "<h1>Hi Frontend Team!</h1><br><h2>These are your mini-twitter endpoints:<h2/><p>To retrieve all users: /users</p><p>To retrieve a single user: /users/:id</p><p>To retrieve all tweets: /tweets</p><p>To retrieve a single tweet: /tweets/:id</p><p>To retrieve all tweets by a specific user: /tweets/user/:id(authorID)</p>"
+    "<h1>Hi Frontend Team!</h1><br><h2>These are your mini-twitter endpoints:<h2/><p>To retrieve all users or create new user: /users</p><p>To retrieve a single user: /users/:id</p><p>To retrieve all tweets or post a new tweet: /tweets</p><p>To retrieve a single tweet: /tweets/:id</p><p>To retrieve all tweets by a specific user: /tweets/user/:id(authorID)</p>"
   );
 });
 
