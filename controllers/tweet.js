@@ -9,6 +9,19 @@ export const getAllTweets = async (req, res) => {
   }
 };
 
+export const getAllTweetsByUser = async (req, res) => {
+  try {
+    const { author } = req.params;
+    const usertweets = await Tweet.find({ author }).populate(
+      "author",
+      "name -_id"
+    );
+    res.json(usertweets);
+  } catch (error) {
+    res.status(500).json({ error: error.message });
+  }
+};
+
 export const getSingleTweet = async (req, res) => {
   try {
     const { id } = req.params;
